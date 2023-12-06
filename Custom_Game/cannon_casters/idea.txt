@@ -1,0 +1,27 @@
+Cannon Casters (using a cannon to cast your fishing line)
+
+3 difficulties: rookie (easy), captain (medium), admiral (hard)
+initial money (~200 coins for easy, 150, for medium and 100 for hard)
+fishing with a cannon (level 1-10), starting at level 1 and can be upgraded in store
+costs 1-10 coins each shot depending on cannon level
+game over when running out of coins
+score recorded with player's name to leaderboard
+
+varied types of fish: tiny, small, medium, big, huge, giant, special
++ tiny - clownfish, powder blue tang, prawn, seahorse*: 4 hp; 7 coins; 2 point each (big schools of 13)
++ small - salmon, trout, mackerel, seahorse (small schools of 6): 12 hp; 15 coins; 6 points each
++ medium - eel, octopus, lobster, sea crab (single): 36 hp; 52 coins; 20 points each
++ big - catfish, sea turtle, pufferfish (single): 68 hp; 102 coins; 50 points each
++ huge - skate fish, tuna, swordfish, giant squid (single): 124 hp; 198 coins; 110 points each
++ giant - shark, orca (killer whale): 262 hp; 444 coins; 234 points each
++ special - mermaid, blue whale, treasure chest: 502 hp; 888 coins; 500 points each
+each type has relevant health point (hp). the "bigger" fish it is, the more hp it has, and the more coins and score it gives out when caught.
+fish swim across the screen and disappear
+hp & score multiplier: 1x for easy, 1.5x for medium, and 2x for hard
+
+click on a point of the screen to blast that area with a net bullet shot from the cannon
+shooting fills up a "burst gauge", clicking which when full will double the power of the cannon and turn the net bullets into laser beams
+support gadgets: bomb, freezing potion. purchasable in store
+
+other functions: pause game, restart, quit, background music (volume changeable)
+advanced functions: tutorial, save game to external file

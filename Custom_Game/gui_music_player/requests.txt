@@ -1,0 +1,10 @@
+write an introduction for that tutorial explaining why it's necessary and helpful to visualize the progress of a playing song on the GUI of a Music Player, and briefly introduce how we will carry out this task in Gosu, with a Ruby Gem called "ruby-audioinfo"
+
+Make a detailed tutorial on how to draw a song progress bar for a GUI music player in Ruby with these steps:
+1. install the Ruby gem "audioinfo" by running the command "gem install ruby-audioinfo" in terminal
+2. require gem in the .rb file (i.e. add the line "require 'audioinfo'" to the start of the program)
+3. initialize a variable in the class "AudioInfo" that loads an audio file from the provided path (e.g. info = AudioInfo.open("path/file.supported_extension")
+4. get the length of an audio file (in seconds) using the method length (e.g. info.length)
+5. calculate active passed time in seconds (only while on play) by comparing current time to song starting time, using Gosu.milliseconds method: passed time = (current time - starting time) / 1000; refresh the starting time when the song is being paused or stopped
+6. calculate the progress bar's width: current width = max width * passed time / audio length
+7. draw a rectangle with found width above a blank progress bar of full width

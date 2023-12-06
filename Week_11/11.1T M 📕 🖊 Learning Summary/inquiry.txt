@@ -1,0 +1,21 @@
+Write a Portfolio Overview that provides a justification for why I should receive High Distinction grade for unit COS10009 – Introduction to Programming (this is an entry-level course on programming with Ruby language). Write this for the assessment panel – tell them why you should get this grade. Indicate how I have been able to extend beyond the material presented in the unit by completing all High Distinction requirements of additional functions of the GUI Music Player and even going further than that, completing the Maze Search task and also developing a custom program.
+
+Move on and write the Reflection section that answers these questions:
+The most important things I learnt:
+[ Think about topics covered, but also other general things you may have learnt. Think about what you have learnt in this subject, and reflect on what you think were key learning points, or incidents. Did you learn what you wanted/expected to learn? ]
+The things that helped me most were: 
+[ List and explain ]
+I found the following topics particularly challenging:
+[ List and explain – if none explain why ]
+I found the following topics particularly interesting:
+[ List and explain – remove if none ]
+I feel I learnt these topics, concepts, and/or tools really well:
+[ List and explain – if none explain why, refer to your pieces for evidence to support your claims ]
+I still need to work on the following areas:
+[ List and explain – if none explain why, refer to your pieces ]
+This unit will help me in the future:
+[ How will the things you learnt relate to the rest of your studies, and career. What have you learnt that will be valuable for you in the future?  ]
+If I did this unit again I would do the following things differently:
+[ List and explain, how will you approach learning in the future? What things worked well, but what could you change to make sure you did better next time?]
+Other…:
+[ Add any other reflections you think help you demonstrate your learning ]

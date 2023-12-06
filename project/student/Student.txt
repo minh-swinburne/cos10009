@@ -1,0 +1,27 @@
+Student 1:
+Name: Ben White
+Date of Birth: 23-4-1989
+Major: Japanese
+Grade: 12
+Math Mark: 5.6
+Programming Mark: 9.0
+GPA: 7.3
+
+Student 2:
+Name: Taylor Smith
+Date of Birth: 13-11-1992
+Major: Literature
+Grade: 9
+Math Mark: 10.0
+Programming Mark: 6.0
+GPA: 8.0
+
+Student 3:
+Name: Richard de Santa
+Date of Birth: 8-1-1990
+Major: Math
+Grade: 11
+Math Mark: 9.0
+Programming Mark: 5.6
+GPA: 7.3
+

@@ -1,0 +1,16 @@
+Book 1:
+Name: A
+Type: Comics
+Year of Publishment: 2015
+Author: B
+Pages: 27
+Price: $5.4
+
+Book 2:
+Name: C
+Type: Novel
+Year of Publishment: 1999
+Author: D
+Pages: 34
+Price: $54.33
+
