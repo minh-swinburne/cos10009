@@ -1,0 +1,28 @@
+2.1 - Letter App
+
+Required Variables:
+	Strings: title, first name, last name, house number, street name, suburb, subject line and message content
+	Integer: postcode
+
+Pseudocode:
+    - Read name:
+		Read title
+		Read first name
+		Read last name
+	=> Return the name for the label of the letter
+	
+	- Read address:
+		Read house number
+		Read street name
+		Read suburb
+		Read postcode (0000-9999)
+	=> Return the address for the label for the letter
+    
+	- Contents:
+		Read subject line
+		Read message content
+	=> Return the message to be sent
+
+    - Print letter:
+		Print the label
+		Print the contents of the letter, which has a line that starts: "RE:" then the subject (read from the user) then a blank line, followed by the message.

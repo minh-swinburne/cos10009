@@ -1,7 +1,0 @@
-<number of albums>
-	<album artist>
-	<album title>
-	<album artwork file location>
-	<number of tracks>
-		<track name>
-		<track file location>
