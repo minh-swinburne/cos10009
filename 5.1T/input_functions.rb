@@ -2,13 +2,13 @@
 # Display the prompt and return the read string
 def read_string prompt
     puts prompt
-    value = gets.chomp
+    value = gets().chomp
 end
 
 # Display the prompt and return the read float
 def read_float prompt
     value = read_string(prompt)
-    value.chomp.to_f
+    value.to_f
 end
 
 # Display the prompt and return the read integer
@@ -40,11 +40,8 @@ def read_boolean prompt
     end
 end
 
-def print_float(value, decimal_places)
-    print(value.round(decimal_places).to_s.chomp('.0'))
-end
-
 # Test the functions above
+
 
 def main 
     puts "String entered is: " + read_string("Enter a String: ")
