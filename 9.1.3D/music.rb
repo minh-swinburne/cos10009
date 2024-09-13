@@ -78,7 +78,7 @@ end
 def read_albums
     albums = Array.new
     album_count = Dir.children(get_file_path(ALBUM_DIR)).length
-    album_index = 1
+    album_index = 0
     while album_index < album_count
         album = read_album(album_index)
         albums << album

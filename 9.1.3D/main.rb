@@ -6,7 +6,7 @@ require_relative 'gui'
 class GUIMusicPlayer < Gosu::Window
     def initialize
         super WIDTH, HEIGHT, false
-        self.caption = "GUI Music Player by Luca"
+        self.caption = "GUI Music Player by Minh Nguyen"
 
         @elements = []
         @playlists = []
@@ -43,7 +43,7 @@ class GUIMusicPlayer < Gosu::Window
             @custom_no = @playlists.length - @ini_length + 1
         else
             # initialize a new playlists and append it to the list of all playlists
-            @playlists << Album.new(99 - @custom_no, '', "Custom List #{@custom_no}", 0, 0, Gosu::Image.new('images/custom_list.bmp'), @new_list)
+            @playlists << Album.new(99 - @custom_no, '', "Custom List #{@custom_no}", 0, 0, read_image('custom_list.bmp'), @new_list)
             # reassign total playlists pages
             @max_playlist_page = @playlists.length/4 + (((@playlists.length % 4) != 0)?1:0)
         end
@@ -110,8 +110,7 @@ class GUIMusicPlayer < Gosu::Window
     # load an image based on the button's name and draw it
     # draw
     def draw_buttons(element)
-        path = "images/#{element.name}.png"
-        img = Gosu::Image.new(path)
+        img = read_image(element.name + '.png')
         img.draw(element.x, element.y, element.z)
     end
 
@@ -423,11 +422,11 @@ class GUIMusicPlayer < Gosu::Window
         end
         # currently selected playlist
         if @selected_playlist
-            SMALL_TEXT.draw_text("Selected album #{@selected_playlist.title}", 700, y+15*2, ZOrder::UI, 1.0, 1.0, WHITE)
+            SMALL_TEXT.draw_text("Selected album #{@selected_playlist.title} (ID #{@selected_playlist.id})", 700, y+15*2, ZOrder::UI, 1.0, 1.0, WHITE)
         end
         # currently selected track
         if @selected_track
-            SMALL_TEXT.draw_text("Selected track #{@selected_track.name}", 700, y+15*3, ZOrder::UI, 1.0, 1.0, Gosu::Color::WHITE)
+            SMALL_TEXT.draw_text("Selected track #{@selected_track.name} (ID #{@selected_track.id})", 700, y+15*3, ZOrder::UI, 1.0, 1.0, Gosu::Color::WHITE)
         end
         # whether the program is in creative mode (creating new playlist)
         if @creative_mode
